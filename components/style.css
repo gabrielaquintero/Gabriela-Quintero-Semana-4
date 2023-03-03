@@ -1,0 +1,63 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+
+
+.btn-outline-secondary{
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 145, 53);
+    margin-left: 100px;
+
+}
+.btn-outline-secondary:hover{
+    background-color: rgb(135, 81, 170);
+    color: whitesmoke;
+
+}
+
+.task-item{
+    background-color: rgb(63, 63, 63);
+    color: whitesmoke;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.task-item:hover{
+    background-color: rgb(180, 213, 239);
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+#check{
+    margin-left: 30px;
+}
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;   
+}
+
+.form-control{
+    background-color: rgb(255, 255, 255);
+}
